@@ -8,7 +8,7 @@ import vsl from "@/assets/vsl-stock.jpg";
 import logoDarkAsset from "@/assets/joseph-aziz-logo-dark.png";
 import logoLightAsset from "@/assets/joseph-aziz-logo-light.png";
 import josephAsset from "@/assets/joseph-aziz-keys.png";
-import formHouse from "@/assets/form-house-stock.jpg";
+import formHouse from "@/assets/evaluation-house.jpg";
 
 const TITLE = "Stay-or-Move Evaluation | Joseph Aziz Real Estate, Bergen County";
 const DESC =
@@ -180,10 +180,10 @@ function Index() {
         <div className="pointer-events-none absolute inset-y-0 left-0 hidden w-1/2 overflow-hidden lg:block">
           <img
             src={formHouse}
-            alt="Luxury modern custom home at dusk"
+            alt="White two-story home with a blue front door at dusk"
             loading="lazy"
-            width={1200}
-            height={1800}
+            width={1440}
+            height={1440}
             className="h-full w-full object-cover object-center opacity-65"
           />
           {/* Smooth Right Fade */}
